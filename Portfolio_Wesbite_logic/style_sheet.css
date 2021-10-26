@@ -5,8 +5,9 @@
     
 }
 
-.category_header_size {
-    font-size: 28px;
+.site_status {
+    color: orange;
+    letter-spacing: 3px;
 }
 
 .line_break {
@@ -16,6 +17,15 @@
 
 .align_center {
     text-align: center;
+}
+
+#main_body {
+    text-align: center;
+}
+
+.category_header_size {
+    font-size: 28px;
+    
 }
 
 #home_header {
@@ -29,3 +39,8 @@
 #projects_header {
 
 }
+
+#contact_header {
+
+}
+
