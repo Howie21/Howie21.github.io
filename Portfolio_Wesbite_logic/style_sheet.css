@@ -25,11 +25,18 @@
 
 .category_header_size {
     font-size: 28px;
+    margin: 10px;
     
 }
 
 #home_header {
     
+}
+
+#about_me_content_pro {
+    margin-left: 200px;
+    margin-right: 60px;
+    font-family: sans-serif;
 }
 
 #about_me_header {
