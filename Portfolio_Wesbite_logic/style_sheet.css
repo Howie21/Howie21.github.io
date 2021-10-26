@@ -2,5 +2,30 @@
 
 
 #main_body_header {
-    background-color: lawngreen
+    
+}
+
+.category_header_size {
+    font-size: 28px;
+}
+
+.line_break {
+    background-color: black;
+    font-size: 5px;
+}
+
+.align_center {
+    text-align: center;
+}
+
+#home_header {
+    
+}
+
+#about_me_header {
+    
+}
+
+#projects_header {
+
 }
