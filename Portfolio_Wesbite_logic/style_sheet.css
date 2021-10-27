@@ -33,18 +33,38 @@
     
 }
 
+#about_me_header {
+    
+}
+
 #about_me_content_pro {
     margin-left: 200px;
     margin-right: 60px;
     font-family: sans-serif;
 }
 
-#about_me_header {
-    
+#about_me_content_per {
+    margin-left: 60px;
+    margin-right: 200px;
+    font-family: sans-serif;
 }
+
+
 
 #projects_header {
 
+}
+
+#robovsdino_image {
+    object-fit: cover;
+    width: 550px;
+    height: 300px;
+}
+
+#repo_image {
+    
+    width: 600px;
+    height: 600px;
 }
 
 #contact_header {
