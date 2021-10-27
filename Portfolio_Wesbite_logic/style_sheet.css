@@ -2,7 +2,22 @@
 
 
 #main_body_header {
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    font-size: 32px;
+    margin-top: 10px;
+    color: black;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em red, 0 0 0.3em maroon;
+    transform: rotate(0deg);
+
+}
+
+#nav_bar {
+    background-color: rgb(163, 162, 162);
+    color: black;
+    border-color: black;
+    padding: 4px;
+    scroll-padding: true;
 }
 
 .site_status {
@@ -41,6 +56,20 @@
     margin-left: 300px;
     margin-right: 60px;
     font-family: sans-serif;
+    background-color: rgb(184, 182, 182);
+    box-shadow: 2px;
+    border-radius: 15px;
+    
+    padding: 1px;
+}
+
+#about_me_content_pro:hover{
+    color: red;
+    transition: all 0.5s ease;
+}
+
+#about_me_content_pro{
+    
 }
 
 #about_me_content_per {
@@ -49,7 +78,28 @@
     font-family: sans-serif;
 }
 
+#about_me_content_per:hover{
+    color: green;
+    transition: all 0.5s ease;
+}
+#about_me_content_per:first-letter{
+    display:block;
+    float:left;
+    margin:4px;
+    color: rgb(233, 117, 40);
+    font-size:200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+#personal_photo {
+    object-fit: cover;
+    box-shadow: 10px 3px 3px black ;
+    border-radius: 14px;
+    background: white;
+    padding: 1px;
+    width: 750px;
+    height: 500px;
+}
 
 #projects_header {
 
@@ -57,12 +107,27 @@
 
 #robovsdino_image {
     object-fit: cover;
+    box-shadow: 2px;
+    border-radius: 25px;
+    background: rgb(5, 240, 240);
+    padding: 1px;
     width: 550px;
     height: 300px;
 }
 
+#pythonrpg_image{
+    object-fit: cover;
+    box-shadow: 2px;
+    border-radius: 15px;
+    background: black;
+    padding: 1px;
+    width: 550px;
+    height: 375px;
+}
+
 #repo_image {
-    
+    border-radius: 50px;
+    padding: 1px;
     width: 600px;
     height: 600px;
 }
@@ -72,6 +137,68 @@
 }
 
 #contact_information {
-    text-align: left;
+    font-family: fantasy;
+	
+}
 
+.neon {
+    position: relative;
+    overflow: hidden;
+    filter: brightness(200%);
+}
+
+.text {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    user-select: none;
+}
+
+.text::before {
+    content: attr(data-text);
+    position: absolute;
+    color: white;
+    filter: blur(0.02em);
+    mix-blend-mode: difference;
+}
+
+.gradient {
+    position: absolute;
+    background: linear-gradient(45deg, rgb(4, 0, 255), maroon, red, maroon, rgb(0, 255, 0));
+    top: 0;
+    left: 345px;
+    right: 345px;
+    bottom: 0;
+    mix-blend-mode: multiply;
+}
+
+.spotlight {
+    position: absolute;
+    top: -100%;
+    left: 350px;
+    right: 475px;
+    bottom: 0;
+    background: 
+        radial-gradient(
+            circle,
+            white,
+            transparent 25%
+        ) center / 25% 25%,
+        radial-gradient(
+            circle,
+            white,
+            black 25%
+        ) center / 12.5% 12.5%;
+    animation: light 5s linear infinite;
+    mix-blend-mode: color-dodge;
+}
+
+@keyframes light {
+    to {
+        transform: translate(50%, 50%);
+    }
 }
