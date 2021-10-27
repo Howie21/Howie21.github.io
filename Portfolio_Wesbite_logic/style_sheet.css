@@ -38,14 +38,14 @@
 }
 
 #about_me_content_pro {
-    margin-left: 200px;
+    margin-left: 300px;
     margin-right: 60px;
     font-family: sans-serif;
 }
 
 #about_me_content_per {
     margin-left: 60px;
-    margin-right: 200px;
+    margin-right: 300px;
     font-family: sans-serif;
 }
 
@@ -73,5 +73,5 @@
 
 #contact_information {
     text-align: left;
-    
+
 }
